@@ -100,7 +100,7 @@
             // addNewLanguageToolStripMenuItem
             // 
             this.addNewLanguageToolStripMenuItem.Name = "addNewLanguageToolStripMenuItem";
-            this.addNewLanguageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addNewLanguageToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.addNewLanguageToolStripMenuItem.Text = "Add new language";
             this.addNewLanguageToolStripMenuItem.Click += new System.EventHandler(this.AddNewLanguageToolStripMenuItem_Click);
             // 
@@ -123,13 +123,14 @@
             // homeToolStripMenuItem
             // 
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.homeToolStripMenuItem.Text = "Home";
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.HomeToolStripMenuItem_Click);
             // 
             // textractorToolStripMenuItem
             // 
             this.textractorToolStripMenuItem.Name = "textractorToolStripMenuItem";
-            this.textractorToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.textractorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.textractorToolStripMenuItem.Text = "Textractor";
             this.textractorToolStripMenuItem.Click += new System.EventHandler(this.TextractorToolStripMenuItem_Click);
             // 

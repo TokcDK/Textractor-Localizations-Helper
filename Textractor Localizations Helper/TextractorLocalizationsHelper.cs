@@ -324,5 +324,10 @@ namespace Textractor_Localizations_Helper
             addLangOpened = true;
             AddNewLanguageForm.Show();
         }
+
+        private void HomeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/TokcDK/Textractor-Localizations-Helper");
+        }
     }
 }
